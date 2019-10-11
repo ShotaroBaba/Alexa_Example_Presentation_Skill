@@ -9,9 +9,17 @@ const LaunchRequestHandler = {
     },
     handle(handlerInput) {
         const speakOutput = 'Welcome, you can say Hello or Help. Which would you like to try?';
+        const data = require("./data/main.json");
+        const template = require("./templates/main.json");
         return handlerInput.responseBuilder
             .speak(speakOutput)
             .reprompt(speakOutput)
+            .addDirective({
+                type: "Alexa.Presentation.APL.RenderDocument",
+                version: "1.0",
+                document: template,
+                datasources: data
+            })
             .getResponse();
     }
 };
