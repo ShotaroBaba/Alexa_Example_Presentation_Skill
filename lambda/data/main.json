@@ -8,13 +8,13 @@
             "largeSourceUrl": null,
             "sources": [
                 {
-                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/BT6_Background.png",
+                    "url": "https://bucketskilltest11102019.s3.amazonaws.com/Ikigai_pictures/pepper_1_alexa_image.jpg",
                     "size": "small",
                     "widthPixels": 0,
                     "heightPixels": 0
                 },
                 {
-                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/BT6_Background.png",
+                    "url": "https://bucketskilltest11102019.s3.amazonaws.com/Ikigai_pictures/pepper_1_alexa_image.jpg",
                     "size": "large",
                     "widthPixels": 0,
                     "heightPixels": 0
